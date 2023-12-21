@@ -1,0 +1,1 @@
+While the repository is public, please note that all models contained within are private property and are subject to copyright laws. Unauthorized use, modification, distribution, or reproduction of these models is strictly prohibited. Please respect the rights of the creators. For any inquiries or permissions, please contact the repository owner.
