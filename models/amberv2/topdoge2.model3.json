@@ -1,0 +1,59 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "topdoge2.moc3",
+    "Textures": [
+      "topdoge2.8192/texture_00.png",
+      "topdoge2.8192/texture_01.png"
+    ],
+    "Physics": "topdoge2.physics3.json",
+    "DisplayInfo": "topdoge2.cdi3.json",
+    "Expressions": [
+      {
+        "Name": "Blush",
+        "File": "expressions/blush.exp3.json"
+      },
+      {
+        "Name": "Shy",
+        "File": "expressions/shy.exp3.json"
+      },
+      {
+        "Name": "Confused",
+        "File": "expressions/confused.exp3.json"
+      },
+      {
+        "Name": "Angry",
+        "File": "expressions/angry.exp3.json"
+      },
+      {
+        "Name": "Sad",
+        "File": "expressions/sad.exp3.json"
+      },
+      {
+        "Name": "Deadpan",
+        "File": "expressions/deadpan.exp3.json"
+      },
+      {
+        "Name": "Surprised",
+        "File": "expressions/surprised.exp3.json"
+      },
+      {
+        "Name": "Happy",
+        "File": "expressions/smile.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": ["ParamEyeLOpen", "ParamEyeROpen"]
+    }
+  ],
+  "HitAreas": []
+}
