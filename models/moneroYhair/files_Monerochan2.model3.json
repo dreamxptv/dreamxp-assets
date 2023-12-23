@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "files_Monerochan2.moc3",
+		"Textures": [
+			"files_Monerochan2.8192/texture_00.png"
+		],
+		"Physics": "files_Monerochan2.physics3.json",
+		"DisplayInfo": "files_Monerochan2.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
