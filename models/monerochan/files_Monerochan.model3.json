@@ -1,0 +1,41 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "files_Monerochan.moc3",
+		"Textures": [
+			"files_Monerochan.8192/texture_00.png"
+		],
+		"Physics": "files_Monerochan.physics3.json",
+		"DisplayInfo": "files_Monerochan.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "angry",
+				"File": "files_Monerochan.8192/angry.exp3.json"
+			},
+			{
+				"Name": "sad",
+				"File": "files_Monerochan.8192/sad.exp3.json"
+			},
+			{
+				"Name": "blush",
+				"File": "files_Monerochan.8192/blush.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
